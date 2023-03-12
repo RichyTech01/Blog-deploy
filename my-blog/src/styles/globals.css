@@ -1,0 +1,57 @@
+.footer{
+  background-color: #323232;
+  padding: 0.5em;
+left: 0;
+bottom: 0;
+text-align: center;
+max-width: 900px;
+width: 90%;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+color: white;
+font-family: roboto;
+
+}
+ul{
+line-height: 4em;
+}
+#comment{
+  width: 70%;
+  height: 2.7em;
+  font-size: 0.9em;
+  border: 1px solid white;
+  margin-top: 0.5em;
+  outline: none;
+}
+
+.hover:hover{
+  background: rgb(223, 222, 222);
+}
+label{
+  font-size: 1.2em;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 90%;
+border-radius: var(--border-radius);
+background: rgb(223, 222, 222);
+border: 1px solid rgb(207, 207, 207);
+transition: transform 200ms, border 200ms;
+}
+.posts h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  font-size: 2em;
+}
+
+button{
+  color: white;
+  padding: 0.5em 7.4em;
+  width: 20%;
+  margin-top: 1em;
+  background-color: rgb(41, 41, 41);
+}

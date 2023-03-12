@@ -1,0 +1,9 @@
+.nav{
+    color: rgb(72, 72, 72);
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    align-items: center;
+  font-family: roboto;
+
+}
